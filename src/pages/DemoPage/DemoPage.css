@@ -1,0 +1,166 @@
+.spinner-border {
+  --bs-spinner-width: 3rem;
+  --bs-spinner-height: 3rem;
+}
+
+.btn-add-unidad {
+  --bs-btn-font-size: 0.85rem;
+  --bs-btn-border-radius: 25px;
+  --bs-btn-font-weight: 700;
+  padding: 8px 28px 4px !important;
+  --bs-btn-bg: var(--walmart-primary);
+}
+
+.btn-acciones {
+  padding: 7px 29px 3px !important;
+  --bs-btn-font-weight: 700;
+  --bs-btn-font-size: 0.75rem;
+  --bs-btn-border-radius: 25px;
+  --bs-btn-bg: var(--walmart-primary);
+}
+
+.btn-acciones:disabled {
+  /* color: var(--walmart-white); */
+  background-color: var(--walmart-grey);
+  border-color: var(--walmart-grey);
+  opacity: 1;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.margin {
+  margin-top: 0.63rem !important;
+}
+
+.link {
+  color: var(--walmart-primary);
+}
+
+.link:hover span {
+  cursor: pointer;
+}
+
+.form-inputs {
+  position: relative;
+}
+.form-inputs .form-control {
+  height: 38px;
+}
+
+.form-inputs .form-control:focus {
+  box-shadow: none;
+  border: 1px solid var(--walmart-black);
+}
+
+.form-inputs div {
+  position: absolute;
+  right: 1px;
+  top: 1px;
+  width: 30px;
+  padding: 6px 4px;
+  border-radius: 0 6px 6px 0;
+}
+
+.form-inputs div:hover {
+  cursor: pointer;
+}
+
+.form-inputs div > img {
+  width: 20px;
+}
+
+.form-control::placeholder {
+  color: var(--walmart-connect-grey);
+  opacity: 1;
+}
+
+.btn-ver {
+  border-radius: 31px;
+  padding: 7px 35px 1px !important;
+  --bs-btn-font-weight: bold;
+}
+
+.modal-bg {
+  display: block;
+  background-color: var(--walmart-black-degraded);
+}
+
+.border-search {
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: var(--walmart-white);
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  appearance: none;
+  border-radius: 0.375rem;
+}
+
+.chips .col-auto,
+.chips .col {
+  padding: 0;
+}
+
+.chips .col {
+  min-width: 120px;
+}
+
+.border-search input {
+  width: 100%;
+}
+
+.chip {
+  border: 1px solid transparent;
+  background-color: var(--walmart-primary-light);
+  padding: 0 10px;
+  color: var(--walmart-white);
+  border-radius: 15px;
+  margin: 5px 5px;
+}
+
+.chip:hover {
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: #eef7ff;
+  color: var(--walmart-primary);
+  font-weight: bold;
+}
+
+.border-btn-reportes,
+.border-btn-descargar {
+  border: 1px solid var(--walmart-grey);
+}
+
+.border-btn-reportes:focus {
+  border: 1px solid var(--walmart-primary);
+}
+
+.border-btn-reportes:focus img[alt="icon_arrow_down"] {
+  transform: rotate(180deg);
+}
+
+.chips-container {
+  left: -10px;
+}
+
+.options-contrato {
+  background-color: #fff;
+  max-height: 400px;
+  overflow-y: auto;
+  box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 0 0 6px 6px;
+  margin-top: 3px;
+}
+
+.options-contrato p:hover {
+  background-color: #eef7ff;
+  color: var(--walmart-primary);
+  font-weight: bold;
+}

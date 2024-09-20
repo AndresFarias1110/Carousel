@@ -1,0 +1,1 @@
+### Folder que contendrá los slice y thunks que sean necesarios para cada modulo del sistema.

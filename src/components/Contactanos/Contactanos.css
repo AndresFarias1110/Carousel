@@ -1,0 +1,59 @@
+.contactanos {
+    font-size: 48px;
+    color: #E6F1FC;
+    margin-top: 58px;
+    font-family: BogleBold;
+    letter-spacing: 2px;
+  }
+  
+  .descripcion-contactanos {
+    font-size: 20px;
+    font-weight: 400;
+    color: #80B8EE;
+    margin-bottom: 76px;
+    font-family: Bogle;
+    margin-top: 23px;
+    letter-spacing: 0px;
+    opacity: .5;
+  }
+  
+  .form-contactanos {
+    margin-left: 23px;
+    margin-top: 18px;
+  }
+  
+  .form-contactanos input, textarea {
+    border: none;
+    outline: 0;
+    margin: 5px 0;
+    padding: 23px 30px;
+    font-size: 16px;
+    font-family: 'Bogle';
+  }
+  
+  .form-contactanos input {
+    width: 371px;
+    height: 61px;
+  }
+  
+  .form-contactanos textarea {
+    width: 773px;
+    height: 130px;
+  }
+  
+  .row-inputs {
+    margin-right: 31px;
+    margin-bottom: 29px;
+  }
+  
+  .btn-enviar {
+    width: 180px !important;
+    height: 55px !important;
+    margin-top: 25px;
+    font-family: BogleBold;
+    font-size: 20px;
+  }
+  
+  .d-flex > div textarea {
+    resize: none !important;
+  }

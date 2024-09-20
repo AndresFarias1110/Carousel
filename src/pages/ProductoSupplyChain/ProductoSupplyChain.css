@@ -1,0 +1,216 @@
+.fa {
+  background-image: url(../../assets/img/ProductoSupplyChain/ProductoSupplyChain.svg);
+}
+.padd {
+  padding: 10%;
+}
+
+.caja-secundaria {
+  width: 100% !important;
+  background-size: cover;
+}
+@media only screen and (max-width: 990px) {
+  .imagen-secundaria {
+    padding-bottom: 10px;
+  }
+  .fondo-principal {
+    height: 690px !important;
+  }
+}
+@media only screen and (max-width: 413px) {
+  h5 {
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+  .imagen-principal {
+    max-width: 213px !important;
+  }
+  .titulo-principal {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 313px) {
+  .imagen-secundaria {
+    max-width: 190px !important;
+  }
+}
+
+.contenedor-producto {
+  margin-left: 160px;
+  padding-top: 30px;
+  margin-bottom: 90px;
+  margin-right: 0px;
+}
+
+.bg-azul-gradiente {
+  background: linear-gradient(to bottom, #001427, #002242, #0071DC); 
+}
+
+.titulo-seccion {
+  color: #E6F1FC;
+  font-size: 48px;
+  font-family: BogleBold;
+  letter-spacing: 2px;
+}
+
+
+.portafolio-nosotros {
+  color: #80B8EE;
+  font-size: 14px;
+  font-family: BogleBold;
+  margin-bottom: 20px;
+  margin-top: 26px;
+  letter-spacing: 2px;;
+}
+
+.titulo-estructura {
+  font-size: 48px;
+  color: #E6F1FC;
+  margin-bottom: 56px;
+  font-family: BogleBold;
+  letter-spacing: 2px;
+}
+
+.card-fotos-oficina {
+  cursor: pointer;
+  margin-left: 45px;
+}
+
+.card-fotos-oficina figure {
+  position: relative;
+  display: inline-block;
+}
+
+.card-fotos-oficina figure:hover .actions {
+  opacity: 1;
+}
+
+.card-fotos-oficina figure .actions {
+  display: block;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  -ms-transition: all .2s ease-out;
+  -webkit-transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -o-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+  border-radius: 19px 19px 20px 20px;
+}
+
+.card-fotos-oficina figure img {
+  border: 0;
+}
+
+.card-fotos-oficina figure .actions button {
+  padding: 13px 20px;
+  font-size: 16px;
+  top: 32%;
+  position: absolute;
+  left: 50%;
+  width: 90%;
+  margin-left: -45%;
+  line-height: 18px;
+  letter-spacing: 1px;
+}
+
+.ver-team {
+  margin-top: 134px;
+  color: #FFFFFF;
+  font-size: 18px;
+  margin-left: 56px;
+}
+
+.ver-team span {
+  margin-left: 5px;
+  font-family: Poppins;
+  font-weight: 500;
+}
+
+.nombre-oficina {
+  font-size: 16px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.nombre-oficina img {
+  margin-right: 9px;
+  margin-bottom: 6px;
+}
+
+.nombre-responsable {
+  position: absolute;
+  font-weight: 600;
+  color: #FFFFFF;
+  font-size: 18px;
+  bottom: -12px;
+  left: 21px;
+  font-family: PoppinsSemiBold;
+  letter-spacing: 1px;
+}
+
+.puesto {
+ font-size: 12px;
+ font-weight: 500;
+}
+
+.seccion-pilares {
+  margin-top: 66px;
+  color: #80B8EE;
+  font-size: 14px;
+  margin-bottom: 21px;
+  font-family: BogleBold;
+  letter-spacing: 2px;
+}
+
+.pilares div {
+  width: 198px;
+}
+
+.titulo-pilares {
+  margin-bottom: 71px;
+  font-size: 48px;
+  font-family: BogleBold;
+  color: #E6F1FC;
+  letter-spacing: 2px;
+}
+
+.pilares img {
+  margin-bottom: 25px;
+}
+
+.margen-pilares {
+  margin-left: 145px;
+}
+
+.nombre-pilar {
+  font-size: 24px;
+  font-family: BogleBold;
+  color: #FFFFFF;
+  letter-spacing: 2px;
+}
+
+.descripcion-pilar {
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+  width: 195px;
+  margin-top: 31px;
+  opacity: .5;
+  letter-spacing: 1px;
+}
+
+
+.footer-copyright {
+  font-family: BogleBold;
+  font-size: 16px;
+}

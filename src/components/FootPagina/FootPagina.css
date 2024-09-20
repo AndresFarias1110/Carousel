@@ -1,0 +1,98 @@
+/*footer*/
+.footer {
+    padding-top: 51px;
+    padding-bottom: 14px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.footer a {
+    color: #FFFFFF;
+}
+
+.lista-footer {
+    margin-bottom: 34px;
+}
+
+.logo-coe-producto img {
+    margin-right: 44px;
+    margin-top: 54px;
+}
+
+.footer-titulo {
+    font-family: BogleBold;
+    font-size: 18px;
+}
+
+.footer-titulo-omni {
+    font-family: BogleBold;
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.footer-contenedor-omni {
+    width: 389px;
+    margin-right: 134px;
+}
+
+.footer-descripcion-omni {
+    font-family: BogleRegular;
+    font-size: 14px;
+    margin-bottom: 29px;
+    width: 389px;
+}
+
+.footer-omni-link a {
+    color: #FFFFFF;
+    font-family: BogleRegular;
+    font-size: 16px;
+}
+
+.footer-nosotros a {
+    text-decoration: none;
+    font-family: BogleRegular;
+    font-size: 16px;
+}
+
+.footer-acerca-de {
+    margin-right: 116px;
+    width: 78px;
+}
+
+.footer-mapa {
+    margin-right: 90px;
+}
+
+.footer-mapa a {
+    text-decoration: none;
+}
+
+.footer-mapa-sitio {
+    margin-bottom: 20px;
+}
+
+.footer-titulo-acerca {
+    margin-bottom: 20px;
+    width: 78px;
+}
+
+.footer-opciones-mapa {
+    margin-bottom: 13px;
+    width: 192px;
+    font-family: BogleRegular;
+}
+
+.footer-correo {
+    width: 264px;
+    font-family: BogleRegular;
+    font-size: 16px;
+}
+
+.footer-correo img {
+    margin-right: 11px;
+}
+
+.footer-linea {
+    margin-top: 19px;
+    margin-bottom: 18px;
+}

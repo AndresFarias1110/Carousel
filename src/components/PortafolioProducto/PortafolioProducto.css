@@ -1,0 +1,9 @@
+.portfolio-product-container {
+    padding-top: 240px;
+    .titulo-seccion {
+        font-size: 48px;
+        margin-bottom: 56px;
+        font-family: BogleBold;
+        letter-spacing: 2px;
+    }
+}

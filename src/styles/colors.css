@@ -1,0 +1,26 @@
+:root {
+  --walmart-black: #002242;
+  --walmart-black-degraded: #000000b3;
+  --walmart-connect-grey: #cbcdd3;
+  --walmart-grey: #FFFFFF;
+  --walmart-grey-dark: #646464;
+  --walmart-grey-light: #ededed;
+  --walmart-primary: #1a75cf;
+  --walmart-primary-rgb: rgb(26, 117, 207);
+  --walmart-primary-light: #6eabe4;
+  --walmart-primary-dark: #094b86;
+  --walmart-primary-highlighted: #0abffe;
+  --walmart-red: #ff0000;
+  --walmart-secondary: #fdbb30;
+  --walmart-secondary-light: #fef3c3;
+  --walmart-secondary-dark: #e5722b;
+  --walmart-tertiary: #74b942;
+  --walmart-white: #ffffff;
+  --walmart-white-bg: #fbfbfb;
+  --walmart-text-ligth: #2b2c43;
+  --walmart-background-light: #e9effa;
+  --color-row: #f1f8ff;
+  --utils-success: #66c455;
+  --utils-error: #e95c5d;
+  --toast-color: #464646;
+}
