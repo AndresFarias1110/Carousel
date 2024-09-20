@@ -1,0 +1,42 @@
+.header__table {
+  background-color: var(--walmart-grey-light) !important;
+  margin-left: 50px;
+  padding: 10px 10px 5px !important;
+  white-space: nowrap;
+}
+
+.header__table:not(:last-child) {
+  border-right: 3px solid var(--walmart-white);
+}
+
+.row_edit {
+  /* box-shadow: 0 0 10px var(--walmart-primary) !important; */
+  outline: 3px solid var(--walmart-primary-light) !important;
+}
+.row_edit > .body__text {
+  color: var(--walmart-primary) !important;
+}
+
+.header__text {
+  color: var(--walmart-grey);
+  font-weight: 700;
+  font-family: Bogle !important;
+  font-size: 1rem;
+}
+
+.table__row:nth-of-type(even) {
+  background-color: var(--color-row);
+}
+
+.table__row > .MuiTableCell-root {
+  border-bottom: 0 !important;
+}
+
+.body__text:not(:last-child) {
+  border-right: 3px solid var(--walmart-white);
+}
+
+.body__text {
+  color: var(--walmart-grey) !important;
+  white-space: nowrap;
+}

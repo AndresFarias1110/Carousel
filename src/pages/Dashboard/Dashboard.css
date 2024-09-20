@@ -1,0 +1,21 @@
+.text-title {
+  color: #1a75cf;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.btn-dashboard {
+  padding: 8px 15px 5px !important;
+  width: 225px;
+  height: 50px;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+.contenedor-azul {
+  background-image: linear-gradient(#001427, #002242, #0071DB);
+}
+
+.barra-azul {
+  margin-bottom: -2px;
+}

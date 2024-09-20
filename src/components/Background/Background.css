@@ -1,0 +1,5 @@
+.barra {
+  background-color: var(--walmart-primary);
+  height: 96px;
+  border-top: 1px solid var(--walmart-secondary);
+}

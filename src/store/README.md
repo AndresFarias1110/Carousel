@@ -1,0 +1,1 @@
+### Folder que contendrá los archivos para configurar el store global del sistema.

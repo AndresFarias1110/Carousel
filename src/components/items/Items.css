@@ -1,0 +1,36 @@
+.imagen-barco {
+  background-image: url("/src/assets/img/ProductoSupplyChain/Barco.svg");
+  background-repeat: no-repeat;
+  background-position: center 10%;
+  background-size: initial;
+}
+.imagen-barco:hover {
+  background-image: url("/src/assets/img/ProductoSupplyChain/Barco-light.svg");
+}
+
+.imagen-casa {
+  background-image: url("/src/assets/img/ProductoSupplyChain/Casa.svg");
+  background-repeat: no-repeat;
+  background-position: center 10%;
+  background-size: initial;
+}
+.imagen-casa:hover {
+  background-image: url("/src/assets/img/ProductoSupplyChain/Casa-light.svg");
+}
+
+.imagen-camion {
+  background-image: url("/src/assets/img/ProductoSupplyChain/Camion.svg");
+  background-repeat: no-repeat;
+  background-position: center 10%;
+  background-size: initial;
+}
+.imagen-camion:hover {
+  background-image: url("/src/assets/img/ProductoSupplyChain/Camion-light.svg");
+}
+
+.padd-top {
+  padding-top: 71px !important;
+}
+.texto:hover {
+  color: var(--walmart-black);
+}

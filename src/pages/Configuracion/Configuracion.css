@@ -1,0 +1,83 @@
+.imagen-camion {
+  background-image: url("/src/assets/img/carrusel-configuracion/camion.svg");
+  background-repeat: no-repeat;
+  background-position: center 10%;
+  background-size: initial;
+}
+.imagen-camion:hover,
+.activo-camion {
+  background-image: url("/src/assets/img/carrusel-configuracion/camion-ligth.svg");
+}
+
+.imagen-folder {
+  background-image: url("/src/assets/img/carrusel-configuracion/folder.svg");
+  background-repeat: no-repeat;
+  background-position: center 10%;
+  background-size: initial;
+}
+.imagen-folder:hover {
+  background-image: url("/src/assets/img/carrusel-configuracion/folder-light.svg");
+}
+
+.imagen-gps {
+  background-image: url("/src/assets/img/carrusel-configuracion/gps.svg");
+  background-repeat: no-repeat;
+  background-position: center 10%;
+  background-size: initial;
+}
+.imagen-gps:hover {
+  background-image: url("/src/assets/img/carrusel-configuracion/gps-light.svg");
+}
+.imagen-trailer {
+  background-image: url("/src/assets/img/carrusel-configuracion/trailer.svg");
+  background-repeat: no-repeat;
+  background-position: center 10%;
+  background-size: initial;
+}
+.imagen-trailer:hover {
+  background-image: url("/src/assets/img/carrusel-configuracion/trailer-light.svg");
+}
+
+.imagen-usuario {
+  background-image: url("/src/assets/img/carrusel-configuracion/usuario.svg");
+  background-repeat: no-repeat;
+  background-position: center 10%;
+  background-size: initial;
+}
+.imagen-usuario:hover,
+.activo-usuario {
+  background-image: url("/src/assets/img/carrusel-configuracion/usuario-light.svg");
+}
+
+.styles-module_carousel-arrow__26sRw {
+  display: none !important;
+}
+.styles-module_item-tracker__3bypy {
+  height: 200px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.css-pdct74-MuiTablePagination-selectLabel,
+.css-194a1fa-MuiSelect-select-MuiInputBase-input.css-194a1fa-MuiSelect-select-MuiInputBase-input.css-194a1fa-MuiSelect-select-MuiInputBase-input,
+.css-16c50h-MuiInputBase-root-MuiTablePagination-select {
+  display: none !important;
+}
+.css-levciy-MuiTablePagination-displayedRows {
+  margin-bottom: 0px;
+}
+@media only screen and (max-width: 470px) {
+  .caja-flecha-responsivo {
+    padding: 0px !important;
+    width: 95px !important;
+  }
+  .styles-module_item-container__a8zaY {
+    width: 109px;
+  }
+}
+@media only screen and (max-width: 570px) {
+  .styles-module_item-container__a8zaY {
+    width: 109px !important;
+  }
+}

@@ -1,0 +1,10 @@
+.btn-pagina-principal {
+  --bs-btn-border-radius: 25px;
+  --bs-btn-padding-x: 29px;
+  --bs-btn-bg: #1a75cf;
+}
+
+.btn-regresar {
+  --bs-btn-border-radius: 25px;
+  --bs-btn-padding-x: 29px;
+}
