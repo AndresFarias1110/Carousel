@@ -1,20 +1,23 @@
-import './App.css';
-import CarouselExample from './carousel-example/CarouselExample';
-import img from "./assets/bg-curva-negro.svg";
+import { useState } from "react";
+import { Provider } from "react-redux";
+import { ToastContainer } from "react-toastify";
+
+import { Spinner } from "./components/Spinner/spinner";
+import AppRoutes from "./router/AppRoutes";
+import { LoaderOptimus } from "./service/loaderService";
+import { store } from "./store";
 
 function App() {
+  const [showLoader, setShowLoader] = useState<boolean>(false);
+  LoaderOptimus.loader$.subscribe({
+    next: (objLoader: any) => setShowLoader(objLoader.loader),
+  });
   return (
-    <div className="App">
-      <div className='row header'>
-      </div>
-      <div className='secctions'>
-        <img src={img} alt="" className='img-fluid img-azul' />
-        <div className='carousel-container'>
-          <CarouselExample></CarouselExample>
-        </div>
-
-      </div>
-    </div>
+    <Provider store={store}>
+      <AppRoutes />
+      <ToastContainer />
+      {showLoader && <Spinner />}
+    </Provider>
   );
 }
 
